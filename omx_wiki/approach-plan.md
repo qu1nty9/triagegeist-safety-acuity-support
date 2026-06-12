@@ -112,7 +112,7 @@ Submission package:
 
 - Public Kaggle Notebook.
 - Kaggle Writeup.
-- Cover image 560 x 280 px.
+- Media Gallery images 640 x 360 px.
 - Public project link.
 - Optional generated submission CSV.
 

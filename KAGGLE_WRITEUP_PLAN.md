@@ -41,7 +41,12 @@ The Kaggle Writeup should use the same framing:
   - `outputs/figures/ablation_metrics.png`
   - `outputs/figures/high_risk_threshold_tradeoff.png`
   - `outputs/figures/confusion_matrix.png`
-  - `outputs/figures/cover_image_560x280.png`
+- Added Kaggle Media Gallery images, all 640 x 360:
+  - `outputs/media_gallery/01_cover.png`
+  - `outputs/media_gallery/02_high_risk_threshold_tradeoff.png`
+  - `outputs/media_gallery/03_ablation_metrics.png`
+  - `outputs/media_gallery/04_confusion_matrix.png`
+  - `outputs/media_gallery/05_target_distribution.png`
 - Added submission-readiness files:
   - `README.md`
   - `requirements.txt`
@@ -82,7 +87,7 @@ Kaggle CV summary for the full valid-feature model:
 1. Paste `KAGGLE_WRITEUP_FINAL.md` into Kaggle Writeups and attach:
    - public notebook,
    - public project link,
-   - `outputs/figures/cover_image_560x280.png`.
+   - `outputs/media_gallery/01_cover.png`.
 2. Attach the Kaggle-run aggregate output artifacts and figures in the writeup/project link.
 3. Keep 5-fold CV in the final notebook because Kaggle runtime is acceptable.
 4. Confirm the public project link excludes `triagegeist-data/`.

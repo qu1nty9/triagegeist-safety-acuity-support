@@ -27,7 +27,7 @@ Core modeling stance:
 
 - Notebook: `output/jupyter-notebook/00-triagegeist-safety-baseline.ipynb`
 - Submission CSV: `outputs/submission.csv`
-- Cover image: `outputs/figures/cover_image_560x280.png`
+- Media Gallery cover image: `outputs/media_gallery/01_cover.png`
 - Writeup draft: `KAGGLE_WRITEUP_DRAFT.md`
 - Public project README: `README.md`
 

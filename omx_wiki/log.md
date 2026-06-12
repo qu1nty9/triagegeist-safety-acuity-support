@@ -36,7 +36,7 @@ Important result:
 - Generated `outputs/high_risk_threshold_grid.csv`.
 - Generated `outputs/high_risk_operating_points.csv`.
 - Generated writeup figures in `outputs/figures/`.
-- Generated strict 560 x 280 cover image: `outputs/figures/cover_image_560x280.png`.
+- Generated strict 640 x 360 Media Gallery cover image: `outputs/media_gallery/01_cover.png`.
 - Added `README.md` for public project-link readiness.
 - Added `requirements.txt`.
 - Added Kaggle writeup draft: `KAGGLE_WRITEUP_DRAFT.md`.
@@ -49,7 +49,7 @@ Submission-readiness checks:
 
 - `KAGGLE_WRITEUP_DRAFT.md` is 813 words, below the 2,000-word limit.
 - `outputs/submission.csv` has 20,000 predictions plus header.
-- Cover image dimensions are exactly 560 x 280 px.
+- Media Gallery image dimensions are exactly 640 x 360 px.
 
 ## [2026-06-13] validation | CV and error review
 
@@ -84,6 +84,7 @@ Kaggle-run key results:
 - Added rubric mapping: `JUDGING_RUBRIC_MAPPING.md`.
 - Added final checklist: `FINAL_SUBMISSION_CHECKLIST.md`.
 - Updated README to point to final submission assets.
+- Added `outputs/media_gallery/` with five 640 x 360 images for Kaggle Media Gallery.
 
 Positioning:
 

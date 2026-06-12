@@ -16,7 +16,7 @@ The local competition description requires:
 
 - Public Kaggle Notebook that runs end-to-end without errors.
 - Kaggle Project Writeup, max 2,000 words.
-- Cover image, 560 x 280 px.
+- Media Gallery image, currently prepared as 640 x 360 px.
 - Attached public notebook.
 - Attached public project link, such as a public repository or working demo.
 

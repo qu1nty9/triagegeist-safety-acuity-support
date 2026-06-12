@@ -8,7 +8,8 @@ Use this checklist immediately before submitting the Triagegeist Kaggle Writeup.
 - [ ] Kaggle Notebook runs end-to-end in Kaggle.
 - [ ] Kaggle Notebook output contains `outputs/submission.csv`.
 - [ ] Kaggle Writeup is submitted through the competition Writeups tab.
-- [ ] Cover image is attached: `outputs/figures/cover_image_560x280.png`.
+- [ ] Media Gallery cover image is attached: `outputs/media_gallery/01_cover.png`.
+- [ ] All Media Gallery images are 640 x 360 px.
 - [ ] Public project link is attached.
 - [ ] The public project link does not expose raw `triagegeist-data/` CSV files.
 - [ ] The public project link does not expose patient-level `outputs/submission.csv` or `outputs/error_review.csv`.
@@ -39,7 +40,7 @@ Use this checklist immediately before submitting the Triagegeist Kaggle Writeup.
 
 - Notebook: `output/jupyter-notebook/00-triagegeist-safety-baseline.ipynb`
 - Writeup text: `KAGGLE_WRITEUP_FINAL.md`
-- Cover image: `outputs/figures/cover_image_560x280.png`
+- Media Gallery cover image: `outputs/media_gallery/01_cover.png`
 - Public project README: `README.md`
 - Final output in Kaggle: `outputs/submission.csv`
 

@@ -11,7 +11,8 @@ The project is framed as a clinical decision-support prototype, not just a metri
 - `outputs/cv_summary.csv` - 5-fold cross-validation summary.
 - `outputs/error_summary.csv` - aggregated validation error summary.
 - `outputs/high_risk_operating_points.csv` - high-risk alert thresholds.
-- `outputs/figures/` - figures and 560 x 280 cover image.
+- `outputs/figures/` - notebook-generated figures.
+- `outputs/media_gallery/` - Kaggle Media Gallery images, all 640 x 360 px.
 - `omx_wiki/` - maintained project knowledge base following the LLM-wiki workflow.
 - `KAGGLE_WRITEUP_FINAL.md` - final writeup text for Kaggle.
 - `PROJECT_DESCRIPTION.md` - project description helper matching the Kaggle template.
@@ -72,7 +73,7 @@ If `nbconvert` is unavailable, open the notebook in Jupyter or Kaggle and run al
 
 - Notebook: `output/jupyter-notebook/00-triagegeist-safety-baseline.ipynb`
 - Submission CSV: generated inside Kaggle as `outputs/submission.csv`
-- Cover image: `outputs/figures/cover_image_560x280.png`
+- Media Gallery cover image: `outputs/media_gallery/01_cover.png`
 - Writeup text: `KAGGLE_WRITEUP_FINAL.md`
 - Project description helper: `PROJECT_DESCRIPTION.md`
 - Media gallery guide: `MEDIA_GALLERY.md`

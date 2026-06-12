@@ -107,9 +107,9 @@ Generated writeup-ready figures:
 - `outputs/figures/ablation_metrics.png`
 - `outputs/figures/high_risk_threshold_tradeoff.png`
 - `outputs/figures/confusion_matrix.png`
-- `outputs/figures/cover_image_560x280.png`
+- `outputs/media_gallery/01_cover.png`
 
-The cover image has been verified at exactly 560 x 280 px.
+The Media Gallery images have been verified at exactly 640 x 360 px.
 
 ## Cross-Validation And Error Review
 

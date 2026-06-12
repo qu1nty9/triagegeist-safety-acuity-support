@@ -90,6 +90,6 @@ Primary artifacts:
 
 - `KAGGLE_WRITEUP_FINAL.md`
 - `outputs/figures/high_risk_threshold_tradeoff.png`
-- `outputs/figures/cover_image_560x280.png`
+- `outputs/media_gallery/01_cover.png`
 
 Note: patient-level outputs such as `outputs/error_review.csv` and `outputs/submission.csv` are generated in Kaggle but intentionally excluded from the public repository.
