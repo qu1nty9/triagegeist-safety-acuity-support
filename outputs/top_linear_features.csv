@@ -1,0 +1,61 @@
+acuity_class,rank,feature,weight
+1,1,cat__mental_status_triage_unresponsive,53.55139748569179
+1,2,num__pain_score,35.40160134876936
+1,3,text__shock,30.231491697581912
+1,4,num__temperature_c,23.596803216428192
+1,5,num__altered_mental_status_flag,22.05431025955594
+1,6,text__syndrome,21.74884258947162
+1,7,num__respiratory_rate,21.692651572372196
+1,8,cat__triage_nurse_id_NURSE-0027,20.624962427165222
+1,9,num__heart_rate,19.56558112886757
+1,10,text__massive,19.456518016732165
+1,11,text__unresponsive,19.074334659732884
+1,12,num__num_prior_ed_visits_12m,17.547168249714197
+2,1,text__significant,33.469017733066494
+2,2,text__acute,31.063601864462456
+2,3,text__severe,27.422300792747876
+2,4,text__urosepsis,23.25580151467037
+2,5,text__meningitis,19.44892843013756
+2,6,text__torsion,18.643835370316165
+2,7,text__hypothermia moderate,18.43747015229678
+2,8,text__abdomen,18.15556330313911
+2,9,text__overdose,17.73114239468393
+2,10,text__open,17.61778597249442
+2,11,text__rapidly,17.316254538268165
+2,12,text__rapidly spreading,17.316254538268165
+3,1,text__moderate,33.31636636112517
+3,2,num__gcs_total,24.670016224284627
+3,3,text__new,20.87527182856981
+3,4,text__localised,18.1414442666182
+3,5,text__with,18.07726828115035
+3,6,text__features,17.152240648838237
+3,7,text__wound infection,16.686569658952447
+3,8,text__with systemic,15.38567609777551
+3,9,text__systemic,15.38567609777551
+3,10,text__body,14.839574130083898
+3,11,text__foreign,14.839574130083898
+3,12,text__foreign body,14.839574130083898
+4,1,text__mild,33.91085142557216
+4,2,text__throat moderate,26.48007860258302
+4,3,text__blood,26.2226210577423
+4,4,text__moderate headache,23.703795431871118
+4,5,text__uncomplicated uti,23.137102141939152
+4,6,text__uncomplicated,23.137102141939152
+4,7,text__infected,22.698053379578067
+4,8,text__conjunctivitis,22.239071692067757
+4,9,text__nasal congestion,21.15791984142537
+4,10,text__congestion,21.15791984142537
+4,11,text__nasal,21.15791984142537
+4,12,text__controlled,20.806150766561323
+5,1,text__advice,42.43596790277492
+5,2,text__review,30.149691699265386
+5,3,text__question,30.05514916787041
+5,4,text__request,27.605036253490734
+5,5,text__removal,26.58646116563588
+5,6,text__prescription,25.75298366112688
+5,7,text__query,25.04000697243553
+5,8,text__referral,24.86166885466497
+5,9,text__diabetes review,18.1969270154047
+5,10,text__throat irritation,17.67750930911319
+5,11,text__minor abrasion,16.75367036800701
+5,12,text__sunburn,16.487637257583973
