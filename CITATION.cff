@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Triagegeist: Safety-Focused Acuity Support for Emergency Triage"
+message: "If you use this research artifact, please cite it using the metadata below."
+type: software
+authors:
+  - name: "qu1nty9"
+repository-code: "https://github.com/qu1nty9/triagegeist-safety-acuity-support"
+abstract: "A reproducible safety-focused clinical AI case study for emergency triage acuity prediction on synthetic ED data, emphasizing dangerous under-triage and high-risk alerting."
+keywords:
+  - emergency-triage
+  - clinical-ai
+  - patient-safety
+  - under-triage
+  - machine-learning
+  - kaggle
+license: MIT
+version: "0.1.0"
+date-released: "2026-06-24"
+

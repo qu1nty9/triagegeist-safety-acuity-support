@@ -4,6 +4,16 @@ This repository contains a Kaggle-ready emergency department triage notebook for
 
 The project is framed as a clinical decision-support prototype, not just a metric-first classifier. It predicts ESI-style `triage_acuity` levels 1-5 and explicitly measures dangerous under-triage of true acuity 1-2 patients.
 
+## Project Framing
+
+This is a reproducible safety-focused clinical AI case study for emergency triage.
+
+The central idea:
+
+> AI triage support should be evaluated around the clinically dangerous failure mode: under-triage of high-acuity patients.
+
+The project is not a deployable medical device and does not claim real-world clinical validation. It is a research artifact showing how to structure leakage controls, ablations, cross-validation, error review, subgroup checks, and high-risk alert threshold analysis around a safety-first triage workflow.
+
 ## Project Structure
 
 - `output/jupyter-notebook/00-triagegeist-safety-baseline.ipynb` - main Kaggle notebook.
@@ -19,6 +29,10 @@ The project is framed as a clinical decision-support prototype, not just a metri
 - `MEDIA_GALLERY.md` - media gallery recommendations.
 - `JUDGING_RUBRIC_MAPPING.md` - explicit mapping to the judging rubric.
 - `FINAL_SUBMISSION_CHECKLIST.md` - final asset checklist.
+- `publication/` - preprint draft, Russian article draft, and release notes.
+- `CITATION.cff` - citation metadata.
+- `.zenodo.json` - Zenodo release metadata.
+- `LICENSE` - MIT license for code and documentation, excluding the raw dataset.
 
 The public repository intentionally excludes raw CSV data and patient-level outputs. Generate those inside Kaggle by running the notebook.
 
@@ -80,6 +94,31 @@ If `nbconvert` is unavailable, open the notebook in Jupyter or Kaggle and run al
 - Rubric map: `JUDGING_RUBRIC_MAPPING.md`
 - Final checklist: `FINAL_SUBMISSION_CHECKLIST.md`
 
+## Publication Package
+
+The project can be published beyond Kaggle as a research artifact:
+
+- Preprint-style manuscript draft: `publication/PREPRINT_DRAFT.md`
+- Russian public article draft: `publication/HABR_ARTICLE_RU.md`
+- GitHub/Zenodo release notes: `publication/RELEASE_NOTES.md`
+- Citation metadata: `CITATION.cff`
+- Zenodo metadata: `.zenodo.json`
+
+Recommended publication path:
+
+1. Create a GitHub release, for example `v0.1.0`.
+2. Connect the repository to Zenodo and mint a DOI.
+3. Publish the Russian article draft on Habr or another technical blog.
+4. If pursuing arXiv later, expand `publication/PREPRINT_DRAFT.md` with a fuller related-work section and external references.
+
 ## Limitations
 
 The dataset is synthetic. The results should be interpreted as a reproducible research prototype, not evidence of clinical deployment readiness. Real-world use would require external validation, calibration, prospective evaluation, clinician workflow testing, safety monitoring, and governance.
+
+## Citation
+
+If you use this artifact, cite the repository metadata in `CITATION.cff`. A DOI can be minted by creating a GitHub release and archiving it through Zenodo.
+
+## License
+
+Repository code, documentation, and generated public artifacts are released under the MIT License. The raw Triagegeist dataset is not included and remains subject to its original Kaggle competition terms.

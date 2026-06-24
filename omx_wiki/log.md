@@ -89,3 +89,20 @@ Kaggle-run key results:
 Positioning:
 
 - The project is now framed as a reproducible clinical safety layer against under-triage, not as a metric-only classifier.
+
+## [2026-06-24] publication | Research artifact package
+
+- Added publication package under `publication/`.
+- Added `publication/PREPRINT_DRAFT.md` as arXiv-style manuscript draft.
+- Added `publication/HABR_ARTICLE_RU.md` as Russian public article draft.
+- Added `publication/RELEASE_NOTES.md`.
+- Added `CITATION.cff`.
+- Added `.zenodo.json`.
+- Added `LICENSE` for code/documentation, explicitly excluding raw dataset terms.
+- Updated README with research artifact framing, publication path, citation, and license notes.
+
+Recommended next steps:
+
+- Create GitHub release `v0.1.0`.
+- Archive through Zenodo to mint DOI.
+- Publish the Russian article draft on Habr or another technical platform.

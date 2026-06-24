@@ -36,3 +36,12 @@ Final judge-facing files:
 - `KAGGLE_WRITEUP_FINAL.md`
 - `JUDGING_RUBRIC_MAPPING.md`
 - `FINAL_SUBMISSION_CHECKLIST.md`
+
+Post-hackathon publication files:
+
+- `publication/PREPRINT_DRAFT.md`
+- `publication/HABR_ARTICLE_RU.md`
+- `publication/RELEASE_NOTES.md`
+- `CITATION.cff`
+- `.zenodo.json`
+- `LICENSE`

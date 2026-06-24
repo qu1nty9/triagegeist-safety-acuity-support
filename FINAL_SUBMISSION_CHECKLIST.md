@@ -50,3 +50,13 @@ Use this checklist immediately before submitting the Triagegeist Kaggle Writeup.
 - Do not publish patient-level outputs such as `outputs/submission.csv` or `outputs/error_review.csv`.
 - Do not publish private Kaggle-only links as the project link.
 - Do not claim clinical deployment readiness.
+
+## Post-Hackathon Publication
+
+- [x] Preprint-style manuscript draft: `publication/PREPRINT_DRAFT.md`.
+- [x] Russian article draft: `publication/HABR_ARTICLE_RU.md`.
+- [x] Zenodo metadata: `.zenodo.json`.
+- [x] Citation metadata: `CITATION.cff`.
+- [x] Repository license added, excluding raw dataset terms.
+- [ ] Optional next step: create GitHub release `v0.1.0`.
+- [ ] Optional next step: connect release to Zenodo and mint DOI.

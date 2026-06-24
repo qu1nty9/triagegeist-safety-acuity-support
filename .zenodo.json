@@ -1,0 +1,31 @@
+{
+  "title": "Triagegeist: Safety-Focused Acuity Support for Emergency Triage",
+  "upload_type": "software",
+  "publication_date": "2026-06-24",
+  "creators": [
+    {
+      "name": "qu1nty9"
+    }
+  ],
+  "description": "A reproducible safety-focused clinical AI case study for emergency triage acuity prediction on synthetic ED data. The project emphasizes dangerous under-triage, high-risk alerting, leakage control, ablations, cross-validation, and transparent limitations.",
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "emergency triage",
+    "clinical AI",
+    "patient safety",
+    "under-triage",
+    "machine learning",
+    "Kaggle",
+    "synthetic data"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/qu1nty9/triagegeist-safety-acuity-support",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Raw Triagegeist CSV files are not redistributed in this repository. Users should access the dataset through Kaggle according to the competition terms. This artifact is a research prototype and not a deployable medical device."
+}
+
